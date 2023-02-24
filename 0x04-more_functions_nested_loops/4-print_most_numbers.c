@@ -16,9 +16,9 @@ void print_most_numbers(void)
 	if (x == 2 || x == 4)
 	{
 	continue;
-	{
-	else
 	}
+	else
+	{
 	_putchar(x + '0');
 	}
 	}
