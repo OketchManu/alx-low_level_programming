@@ -3,7 +3,7 @@
 /**
  *main - print prime
  * Return: 0
- * /
+ */
 int main(void)
 {
 unsigned long int i = 3, n = 612852475143;
