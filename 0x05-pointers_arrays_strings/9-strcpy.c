@@ -8,17 +8,21 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	int l = 0;
-	int x = 0;
+	int cout = 0, l;
 
-	while (*(src + 1) != '\n')
+	while (*src)
 	{
-	l++;
+	src++;
+	cout++;
 	}
-	for ( ; x < l ; x++)
+	for (l = 0; l < cout; l++)
+	src--;
+
+	for (l = 0; l < cout; l++)
 	{
-	dest[x] = src[x];
+	dest[l] = *src;
+	src++;
 	}
-	dest[1] = src[x];
+	dest[l] = *src;
 	return (dest);
 }
