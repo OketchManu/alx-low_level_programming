@@ -5,7 +5,7 @@
  * @str: string
  * Return: void
  */
-int puts_half(char *str)
+void puts_half(char *str)
 {
 int len, x, i;
 
