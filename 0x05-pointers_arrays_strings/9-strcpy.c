@@ -13,7 +13,7 @@ char *_strcpy(char *dest, char *src)
 
 	while (*(src + 1) != '\n')
 	{
-	i++;
+	l++;
 	}
 	for ( ; x < l ; x++)
 	{
